@@ -3,7 +3,7 @@
     "path": "~/GitHub/Orientaciones labor tutorial FACSO/intro.qmd",
     "project_path": "intro.qmd",
     "type": "quarto_markdown",
-    "hash": "824492217",
+    "hash": "88012996",
     "contents": "",
     "dirty": false,
     "created": 1745503107508.0,
@@ -16,16 +16,17 @@
         "Source": "Source",
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
-        "rmdVisualModeLocation": "14:0",
+        "rmdVisualModeLocation": "18:0",
         "cursorPosition": "0,0",
-        "scrollLine": "0"
+        "scrollLine": "0",
+        "docOutlineSize": "155"
     },
     "folds": "",
-    "lastKnownWriteTime": 1745503173,
+    "lastKnownWriteTime": 1745504706,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1745503173054,
+    "last_content_update": 1745504706361,
     "read_only": false,
     "read_only_alternatives": []
 }
