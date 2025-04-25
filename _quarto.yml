@@ -14,8 +14,8 @@ book:
       right: |
         Este libro se construyó con <a href="https://quarto.org/">Quarto</a>.
   page-navigation: true
-#  cover-image: edumer.png
-#  favicon: edumer.png
+  cover-image: logo.jpg
+  favicon: logo.jpg
 #  repo-url: https://github.com/educacion-meritocracia/reporte-colegios
   repo-branch: main
   chapters:
@@ -36,15 +36,17 @@ book:
 
 format:
   html:
+   # include-before-body: banner.qmd
     toc: true
     toc-location: right
     toc-depth: 6
     toc-expand: 6
     toc-title: Contenidos
-    number-sections: true
-    number-depth: 6
+    number-sections: false
+  #  number-depth: 6
     theme:
-      - united
+     # - pp.scss
+     - united
     code-link: true
   pdf:
     documentclass: scrreprt

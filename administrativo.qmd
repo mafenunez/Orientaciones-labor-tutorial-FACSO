@@ -1,3 +1,47 @@
 ---
 title: "Tareas Administrativas"
 ---
+
+# Documentos
+
+-   documento de trabajo
+
+-   planilla de segumiento
+
+-   planill fisica (y su digitalziación)
+
+-   solicitud de sala
+
+# Carpetas
+
+-   carpetas compartidas con el equipo de coordinacion
+
+    -   carpeta de actas
+
+    -   carpeta de planificaciones
+
+    -   carpeta de asistencias digitalizdas
+
+-   drive del equipo
+
+    -   carpeta por año
+
+        -   carpta por semestre
+
+            -   por tutoria o por ramo o tutora
+
+# Formularios
+
+-   fromularios gestionados desde coordiancion
+
+    -   formulario de inscripcion a talleres
+
+    -   formulario de solicitud de tutorias personalizadas
+
+    -   formulario de asistencia tutoias remotas
+
+-   formulario gestonaods desde equipos
+
+    -   formulario de inscriocon a grupos de estudio
+
+    -   formulario de diagnostico de necesidades
