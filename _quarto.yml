@@ -14,17 +14,15 @@ book:
       right: |
         Este libro se construyó con <a href="https://quarto.org/">Quarto</a>.
   page-navigation: true
-  cover-image: logo.jpg
-  favicon: logo.jpg
+  cover-image: logo.png
+  favicon: logo.png
 #  repo-url: https://github.com/educacion-meritocracia/reporte-colegios
   repo-branch: main
   chapters:
     - index.qmd
-    - intro.qmd
     - summary.qmd 
     - acompanamiento.qmd
     - administrativo.qmd
-    - references.qmd
   search:
     location: sidebar
     type: textbox
@@ -36,7 +34,7 @@ book:
 
 format:
   html:
-   # include-before-body: banner.qmd
+    include-before-body: banner.qmd
     toc: true
     toc-location: right
     toc-depth: 6
@@ -44,6 +42,7 @@ format:
     toc-title: Contenidos
     number-sections: false
   #  number-depth: 6
+    css: styles.css
     theme:
      # - pp.scss
      - united

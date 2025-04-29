@@ -2,6 +2,8 @@
 title: "Tareas Administrativas"
 ---
 
+Dentro de la labor tutorial, es importante hacer un repote adecuado de su gestión como tutores. Para ello,
+
 # Documentos
 
 -   documento de trabajo

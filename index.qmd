@@ -1,4 +1,4 @@
-# [Acompañamiento tutorial y tareas administrativas]{.orange} {.unnumbered}
+# [Acompañamiento tutorial y tareas administrativas]{.orange} {.unnumbered style="styles.css"}
 
 Las tutorías impartidas desde el Centro IDEA se caracterizan por su enfoque en el acompañamiento integral a estudiantes. Para generar aquelo, la creación de un espacio tutoral basado en el vinculo con le tutorade es lo esencial. Les tutores son estudiantes que a partir de su propio experiencia tienen el interes de acompañar a sus pares en ramos en que tienen dificultad de avanzar, siempre desde un enfoque desde el acomañamiento a habiliadades necesarias para la vida universitaria.
 
@@ -11,6 +11,29 @@ El Centro para la Innovación y el Aprendizaje (IDEA) se integra por:
 -   María Fernanda Núñez (Coordinadora de tutores)
 
 -   Catalina Poblete (Coordiandora de tutores)
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+nombre <- c("Carla Gutierrez Daroch", "María Fernanda Núñez", "Catalina Poblete")
+cargo <- c("Encargada Local", "Coordinadora de tutores", "Coordinadora de tutores")
+
+int <- data.frame(nombre, cargo)
+
+int %>%
+  knitr::kable(format = "html",
+        align = "c",
+        col.names = c("Nombre", "Cargo"),
+        escape = FALSE) %>%
+   kableExtra::kable_styling(bootstrap_options = c("striped", "hover"),
+                full_width = F,
+                position = "center",
+                font_size = 14) %>%
+   kableExtra::row_spec(0, bold = TRUE, color = "#FFFFFF", background = "#9229B2") %>%  # Encabezado
+   kableExtra::column_spec(1, background = "#F7941D", color = "#FFFFFF", bold = TRUE) %>%
+   kableExtra::column_spec(2, background = "#EEC8F3", color = "#FFFFFF", bold = TRUE) %>%
+  kableExtra::add_header_above(c(" " = 2), background = "#9229B2", color = "white")  # barra superior
+  
+```
 
 Y por 5 equipos referidos a cada carrera:
 
@@ -68,4 +91,4 @@ Trabajo Social
 
 -   Mahely
 
-Camila y Constanza son tutoras ESD que realizan acompamiento a estudiantes. Sin embargo, Antonia Vera
+Camila y Constanza son tutoras ESD que realizan acompamiento a estudiantes.
