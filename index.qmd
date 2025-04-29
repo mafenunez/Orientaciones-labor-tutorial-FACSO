@@ -6,11 +6,7 @@ Este libro orientador busca introducir a dicha labor en términos más espcifico
 
 El Centro para la Innovación y el Aprendizaje (IDEA) se integra por:
 
--   Carla Gutierrez Daroch (Encargada Local)
-
--   María Fernanda Núñez (Coordinadora de tutores)
-
--   Catalina Poblete (Coordiandora de tutores)
+## Equipo de coordinación
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
 library(tidyverse)
@@ -35,60 +31,140 @@ int %>%
   
 ```
 
-Y por 5 equipos referidos a cada carrera:
+<br>
+<br>
+Y por **5 equipos** referidos a cada carrera:
 
-Antropología
+## Equipo de Antropología
 
--   Andrea
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+antropo <- c("Andrea", "Josefa", "Nabila", "Nataly")
 
--   Josefa
+tipoa <- c("TIP", "TIP", "TIP", "TIP")
 
--   Nabila
+antropo <- data.frame(antropo,tipoa)
 
--   Nataly
 
-Sociología
 
--   Constanza
+socio <- c("Constanza", "Cristóbal", "Victoria", "Valentina", "Martín")
 
--   Cristóbal
+tipos <- c("ESD", "TIP", "TIP", "TIP", "TIP")
 
--   Victoria
+socio <- data.frame(socio,tipos)
+  
+  
+pep <- c("Camila", "Daniela", "Esperanza")
 
--   Valentina
+tippe <- c("TIP", "TIP", "TIP")
 
--   Martín
+pep <- data.frame(pep,tippe)
 
-Pedagogía en Educación Parvulria
 
--   Camila
 
--   Daniela
+psico <- c("Camila", "Anahí", "Camilo", "Renatta", "Arandú",  "Andrea")
 
--   Esperanza
+tipp <- c("ESD", "TIP", "TIP", "TIP", "TIP",  "TIP")
 
-Psicología
+psico <- data.frame(psico,tipp)
 
--   Camila
 
--   Anahí
 
--   Camilo
+ts <- c("Sol", "Millaray", "Francisca", "Mahely")
 
--   Renatta
+tips <- c("TIP", "TIP", "TIP", "TIP")
 
--   Arandú
+ts <- data.frame(ts,tips)
 
--   Andrea
+```
 
-Trabajo Social
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+antropo %>%
+  knitr::kable(format = "html",
+        align = "c",
+        col.names = c("Antropología", "Tutora"),
+        escape = FALSE) %>%
+   kableExtra::kable_styling(bootstrap_options = c("striped", "hover"),
+                full_width = F,
+                position = "center",
+                font_size = 14) %>%
+   kableExtra::row_spec(0, bold = TRUE, color = "#FFFFFF", background = "#9229B2") %>%  # Encabezado
+   kableExtra::column_spec(1, background = "#F7941D", color = "#FFFFFF", bold = TRUE) %>%
+   kableExtra::column_spec(2, background = "#EEC8F3", color = "#FFFFFF", bold = TRUE) %>%
+  kableExtra::add_header_above(c(" " = 2), background = "#9229B2", color = "white")  # barra superior
+```
 
--   Sol
 
--   Millaray
+## Equipo de Sociología
 
--   Francisca
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+socio %>%
+  knitr::kable(format = "html",
+        align = "c",
+        col.names = c("Sociología", "Tutor/a"),
+        escape = FALSE) %>%
+   kableExtra::kable_styling(bootstrap_options = c("striped", "hover"),
+                full_width = F,
+                position = "center",
+                font_size = 14) %>%
+   kableExtra::row_spec(0, bold = TRUE, color = "#FFFFFF", background = "#9229B2") %>%  # Encabezado
+   kableExtra::column_spec(1, background = "#F7941D", color = "#FFFFFF", bold = TRUE) %>%
+   kableExtra::column_spec(2, background = "#EEC8F3", color = "#FFFFFF", bold = TRUE) %>%
+  kableExtra::add_header_above(c(" " = 2), background = "#9229B2", color = "white")  # barra superior
 
--   Mahely
+```
 
-Camila y Constanza son tutoras ESD que realizan acompamiento a estudiantes.
+## Equipo de Pedagogía en Educación Parvularia
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+pep %>%
+  knitr::kable(format = "html",
+        align = "c",
+        col.names = c("Pedagogía en Educación Parvularia", "Tutora"),
+        escape = FALSE) %>%
+   kableExtra::kable_styling(bootstrap_options = c("striped", "hover"),
+                full_width = F,
+                position = "center",
+                font_size = 14) %>%
+   kableExtra::row_spec(0, bold = TRUE, color = "#FFFFFF", background = "#9229B2") %>%  # Encabezado
+   kableExtra::column_spec(1, background = "#F7941D", color = "#FFFFFF", bold = TRUE) %>%
+   kableExtra::column_spec(2, background = "#EEC8F3", color = "#FFFFFF", bold = TRUE) %>%
+  kableExtra::add_header_above(c(" " = 2), background = "#9229B2", color = "white")  # barra superior
+
+```
+
+
+## Equipo de Psicología
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+psico %>%
+  knitr::kable(format = "html",
+        align = "c",
+        col.names = c("Psicología", "Tutor/a"),
+        escape = FALSE) %>%
+   kableExtra::kable_styling(bootstrap_options = c("striped", "hover"),
+                full_width = F,
+                position = "center",
+                font_size = 14) %>%
+   kableExtra::row_spec(0, bold = TRUE, color = "#FFFFFF", background = "#9229B2") %>%  # Encabezado
+   kableExtra::column_spec(1, background = "#F7941D", color = "#FFFFFF", bold = TRUE) %>%
+   kableExtra::column_spec(2, background = "#EEC8F3", color = "#FFFFFF", bold = TRUE) %>%
+  kableExtra::add_header_above(c(" " = 2), background = "#9229B2", color = "white")  # barra superior
+
+```
+
+## Equipo de Trabajo Social
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+ts %>%
+  knitr::kable(format = "html",
+        align = "c",
+        col.names = c("Trabajo Social", "Tutora"),
+        escape = FALSE) %>%
+   kableExtra::kable_styling(bootstrap_options = c("striped", "hover"),
+                full_width = F,
+                position = "center",
+                font_size = 14) %>%
+   kableExtra::row_spec(0, bold = TRUE, color = "#FFFFFF", background = "#9229B2") %>%  # Encabezado
+   kableExtra::column_spec(1, background = "#F7941D", color = "#FFFFFF", bold = TRUE) %>%
+   kableExtra::column_spec(2, background = "#EEC8F3", color = "#FFFFFF", bold = TRUE) %>%
+  kableExtra::add_header_above(c(" " = 2), background = "#9229B2", color = "white")  # barra superior
+
+```

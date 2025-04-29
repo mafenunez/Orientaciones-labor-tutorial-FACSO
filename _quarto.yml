@@ -5,7 +5,7 @@ project:
 book:
   title: "Orientaciones labor tutorial FACSO"
   author: "Equipo Centro IDEA"
-  date: "24-04-2025"
+  #date: "24-04-2025"
   reader-mode: true
   page-footer:
       left: | 
@@ -14,8 +14,8 @@ book:
       right: |
         Este libro se construyó con <a href="https://quarto.org/">Quarto</a>.
   page-navigation: true
-  cover-image: logo.png
-  favicon: logo.png
+  cover-image: "images/logo.png"
+  favicon: "images/logo.png"
 #  repo-url: https://github.com/educacion-meritocracia/reporte-colegios
   repo-branch: main
   chapters:
@@ -34,7 +34,7 @@ book:
 
 format:
   html:
-    include-before-body: banner.qmd
+    #include-before-body: banner.qmd
     toc: true
     toc-location: right
     toc-depth: 6
