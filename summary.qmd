@@ -14,20 +14,24 @@ output:
 # Marco institucional
 
 ::: {columns}
-::: {.column width="45%"}
+::: {.column width="55%"}
 
-A nivel UChile, se plantea el principio de necesidad a la hora de poner a disposicón las tutorías a les estudiantes: estos son seleccionados por sus vías de ingreso. Así, quiénes se vean más necesitados de acuidr al compañmiento para adaptarse a la vida univerisitaria, son quienes reciben las tutorias. Sin embargo, esto no es un trato prioritorio, ya que las tutorías son ofetadas pero no demandadas. 
+A nivel UChile, se plantea el principio de necesidad a la hora de poner a disposicón las tutorías a les estudiantes: estos son seleccionados por sus vías de ingreso. 
+
+Así, quiénes se vean más necesitados de acuidr al compañmiento para adaptarse a la vida univerisitaria, son quienes reciben las tutorias. Sin embargo, esto no es un trato prioritorio, ya que las tutorías son ofetadas pero no demandadas. 
 
 Al esuchar esto y pensarlo en nuestra Facultad, no s algo que nos haga mucho sentido, pues FACSO tiene un funcionamiento propio y completamente diferente al de las otras facutlades. Desde ahí nace nuestro Centro IDEA.
 
 :::
 
-::: {.column width="10%"}
+::: {.column width="5%"}
 :::
 
-::: {.column width="40%"}
+::: {.column width="30%"}
 ::: callout-note
-Esta iniciativa, a nivel UChile, nace a partir de la **masificación de la educación superior**. Lo cual plantea la *necesidad de acompañar a estudiantes quienes son la primera generación de universitarios (o profesionales) en su familia* y, por ende, *la experiencia de estudiar en el espacio univeistario es completamente nueva*.
+Esta iniciativa, a nivel UChile, nace a partir de la **masificación de la educación superior**.
+
+Lo cual plantea la *necesidad de acompañar a estudiantes quienes son la primera generación de universitarios (o profesionales) en su familia* y, por ende, *la experiencia de estudiar en el espacio univeistario es completamente nueva*.
 :::
 
 :::
@@ -38,23 +42,14 @@ Esta iniciativa, a nivel UChile, nace a partir de la **masificación de la educa
 
 ***¿Por qué el centro funciona de tal manera?***
 
-::: {columns}
-::: {.column width="45%"}
 
 Al pensar en el funcionamiento de nuesstro Centro, lo primero que se nos viene a la mente es que funcionamos a partir de la demanda de atención y desde ahí planteamos la oferta a les estudiantes. Aquella es la característica fundamental y sustantiva de funcionamiento que nosdistingue del resto de facultades.
 
 Desde ahí, los valores que caracterizanal Cento IDEA son los que movilizan su forma de gestión de las atenciones y funcionamiento tutorial general. Nos caracterizamos por plantear una politica de no segregación de los estudiantes por sus condiciones de origen, de modo que no practicamos esta idea de discriminación postiva. Aquello, nos enlaza con la idea de una eduación inclusiva...
 
-:::
 
-::: {.column width="10%"}
-:::
-
-::: {.column width="40%"}
 Por otro lado, el perfíl del estudiante de FACSO se trata de un estudinte que
-:::
 
-:::
 
 
  
@@ -62,11 +57,11 @@ Por otro lado, el perfíl del estudiante de FACSO se trata de un estudinte que
 
 ## BCA: Límites de nuestro trabajo
 
-¿Qué es la BCA? Corresponde a la Beca de Colaboración Académica y es, en términos concretos, nuestro pago por el trabajo que realizamos. De acuerdo a esta, es que debemos cumplir cierta cantidad de horas en nuestra jornada laboal, la cual es de 6 horas. Sin embarg, así como debemos cumplirla, tampoco debemos excedernos.
+*¿Qué es la BCA?* Corresponde a la Beca de Colaboración Académica y es, en términos concretos, nuestro pago por el trabajo que realizamos. De acuerdo a esta, es que debemos cumplir cierta cantidad de horas en nuestra jornada laboal, la cual es de 6 horas. Sin embarg, así como debemos cumplirla, tampoco debemos excedernos.
 
 Nuestro modelo de acompañamiento dificulta un poco pero en esos momentos es importante onocer nustros limites dentro de nuestro terabajo tutorial
 
-Identifcar: 
+**Identifcar:** 
 
 ::: {columns}
 ::: {.column width="25%"}
