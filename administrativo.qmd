@@ -4,46 +4,93 @@ title: "Tareas Administrativas"
 
 Dentro de la labor tutorial, es importante hacer un repote adecuado de su gestión como tutores. Para ello,
 
+::: {.columns}
+::: {.column width="40%"}
+
 # Documentos
 
--   documento de trabajo
+> documento de trabajo
 
--   planilla de segumiento
 
--   planill fisica (y su digitalziación)
+> planilla de segumiento
 
--   solicitud de sala
+>   planill fisica (y su digitalziación)
 
+>   solicitud de sala
+
+:::
+
+::: {.column width="5%"}
+:::
+
+
+::: {.column width="55%"}
 # Carpetas
 
--   carpetas compartidas con el equipo de coordinacion
+::: {.columns}
+::: {.column width="55%"}
+Carpetas compartidas **con el equipo de coordinacion**
 
-    -   carpeta de actas
+> carpeta de actas
+    
+> carpeta de planificaciones
 
-    -   carpeta de planificaciones
+>carpeta de asistencias digitalizdas
+    
+:::
 
-    -   carpeta de asistencias digitalizdas
+::: {.column width="5%"}
+:::
 
--   drive del equipo
+::: {.column width="40%"}
+**Drive del equipo**
 
-    -   carpeta por año
+> Estructura de carpetas:
+>
+> ```plaintext
+> año/
+> └── semestre/
+>     └── tutoría-ramo-tutor-a/
+> ```
+            
+:::
 
-        -   carpta por semestre
+:::
 
-            -   por tutoria o por ramo o tutora
+:::
 
+:::
+
+::: {.columns}
+::: {.column width="95%"}
 # Formularios
 
--   fromularios gestionados desde coordiancion
+::: {.columns}
+::: {.column width="40%"}
+Formularios gestionados **desde coordiancion**
 
-    -   formulario de inscripcion a talleres
+> formulario de inscripcion a talleres
 
-    -   formulario de solicitud de tutorias personalizadas
+> formulario de solicitud de tutorias personalizadas
 
-    -   formulario de asistencia tutoias remotas
+> formulario de asistencia tutoias remotas
 
--   formulario gestonaods desde equipos
+:::
 
-    -   formulario de inscriocon a grupos de estudio
+::: {.column width="15%"}
+:::
 
-    -   formulario de diagnostico de necesidades
+::: {.column width="40%"}
+Formulario gestonaods **desde equipos**
+
+> formulario de inscriocon a grupos de estudio
+
+>  formulario de diagnostico de necesidades
+
+:::  
+
+:::
+
+:::
+
+:::

@@ -1,21 +1,80 @@
+---
+#title: 
+output:
+  html_document:
+    css: "styles.css"  # Se puede incluir un archivo CSS externo
+    includes:
+      in_header: |
+        <style>
+          body {
+            background-color: #8338EC;  /* Fondo blanco */
+          }
+        </style>
+---
 # Marco institucional
 
-¿Por qué el centro funciona de tal manera?
+::: {columns}
+::: {.column width="45%"}
 
--   explicar el funcionamiento por demanda y los valores asociados a ello
+A nivel UChile, se plantea el principio de necesidad a la hora de poner a disposicón las tutorías a les estudiantes: estos son seleccionados por sus vías de ingreso. Así, quiénes se vean más necesitados de acuidr al compañmiento para adaptarse a la vida univerisitaria, son quienes reciben las tutorias. Sin embargo, esto no es un trato prioritorio, ya que las tutorías son ofetadas pero no demandadas. 
 
--   plantemiento de la no segregación y de educación inclusiva
--   perfl de estudianes en FACSO
+:::
 
-## BCA: Límites de nuestro trabajo 
+::: {.column width="45%"}
+::: callout-note
+Esta iniciativa, a nivel UChile, nace a partir de la **masificación de la educación superior**. Lo cual plantea la *necesidad de acompañar a estudiantes quienes son la primera generación de universitarios (o profesionales) en su familia* y, por ende, *la experiencia de estudiar en el espacio univeistario es completamente nueva*.
+:::
 
-¿Qué es la BCA? Corresponde a la Beca de Colaboración Académica y es, en términos concretos, nuestro pago por el trabajo que realizamos. De acuerdo a esta, es que debemos cumplir cierta cantidad de horas en nuestra jornada laboal, la cual es de 6 horas. Sin embarg, así como debemos cumplirla, tampoco debemos excedernos. 
+:::
 
-Nuestro modelo de acompañamiento dificulta un poco
-pero en esos momentos es importante onocer nustros limites dentro de nuestro terabajo tutorial
+:::
 
-identifcar: 
-- ¿Hasta donde puedo incidir?
-- ¿Cuand debo deriviar un caso?
-- ¿Enqué momento debo pdir ayuda? ¿A quien?
-- ¿Cuántas tutorias debo realizar?¿Acorde a qué?  
+Al esuchar esto y pensarlo en nuestra Facultad, no s algo que nos haga mucho sentido, pues FACSO tiene un funcionamiento propio y completamente diferente al de las otras facutlades. Desde ahí nace nuestro Centro IDEA.
+
+***¿Por qué el centro funciona de tal manera?***
+
+::: {columns}
+::: {.column width="45%"}
+
+Al pensar en el funcionamiento de nuesstro Centro, lo primero que se nos viene a la mente es que funcionamos a partir de la demanda de atención y desde ahí planteamos la oferta a les estudiantes. Aquella es la característica fundamental y sustantiva de funcionamiento que nosdistingue del resto de facultades.
+
+Desde ahí, los valores que caracterizanal Cento IDEA son los que movilizan su forma de gestión de las atenciones y funcionamiento tutorial general. Nos caracterizamos por plantear una politica de no segregación de los estudiantes por sus condiciones de origen, de modo que no practicamos esta idea de discriminación postiva. Aquello, nos enlaza con la idea de una eduación inclusiva...
+
+:::
+
+::: {.column width="45%"}
+Por otro lado, el perfíl del estudiante de FACSO se trata de un estudinte que
+:::
+
+:::
+
+
+ 
+
+
+## BCA: Límites de nuestro trabajo
+
+¿Qué es la BCA? Corresponde a la Beca de Colaboración Académica y es, en términos concretos, nuestro pago por el trabajo que realizamos. De acuerdo a esta, es que debemos cumplir cierta cantidad de horas en nuestra jornada laboal, la cual es de 6 horas. Sin embarg, así como debemos cumplirla, tampoco debemos excedernos.
+
+Nuestro modelo de acompañamiento dificulta un poco pero en esos momentos es importante onocer nustros limites dentro de nuestro terabajo tutorial
+
+Identifcar: 
+
+::: {columns}
+::: {.column width="25%"}
+> ¿Hasta donde puedo incidir? 
+
+:::
+
+::: {.column width="25%"}
+> ¿En qué momento debo pdir ayuda? ¿A quien? 
+
+> ¿Cuand debo deriviar un caso? 
+:::
+
+::: {.column width="25%"}
+> ¿Cuántas tutorias debo realizar?¿Acorde a qué?
+
+:::
+
+:::

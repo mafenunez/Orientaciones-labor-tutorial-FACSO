@@ -35,6 +35,8 @@ int %>%
 <br>
 Y por **5 equipos** referidos a cada carrera:
 
+::: {columns}
+::: {.column width="25%"}
 ## Equipo de Antropología
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
@@ -92,27 +94,13 @@ antropo %>%
    kableExtra::column_spec(2, background = "#EEC8F3", color = "#FFFFFF", bold = TRUE) %>%
   kableExtra::add_header_above(c(" " = 2), background = "#9229B2", color = "white")  # barra superior
 ```
+:::
 
 
-## Equipo de Sociología
+::: {.column width="5%"}
+:::
 
-```{r, echo=FALSE, message=FALSE, warning=FALSE}
-socio %>%
-  knitr::kable(format = "html",
-        align = "c",
-        col.names = c("Sociología", "Tutor/a"),
-        escape = FALSE) %>%
-   kableExtra::kable_styling(bootstrap_options = c("striped", "hover"),
-                full_width = F,
-                position = "center",
-                font_size = 14) %>%
-   kableExtra::row_spec(0, bold = TRUE, color = "#FFFFFF", background = "#9229B2") %>%  # Encabezado
-   kableExtra::column_spec(1, background = "#F7941D", color = "#FFFFFF", bold = TRUE) %>%
-   kableExtra::column_spec(2, background = "#EEC8F3", color = "#FFFFFF", bold = TRUE) %>%
-  kableExtra::add_header_above(c(" " = 2), background = "#9229B2", color = "white")  # barra superior
-
-```
-
+::: {.column width="45%"}
 ## Equipo de Pedagogía en Educación Parvularia
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
@@ -131,8 +119,12 @@ pep %>%
   kableExtra::add_header_above(c(" " = 2), background = "#9229B2", color = "white")  # barra superior
 
 ```
+:::
 
+:::
 
+::: {columns}
+::: {.column width="25%"}
 ## Equipo de Psicología
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
 psico %>%
@@ -150,7 +142,12 @@ psico %>%
   kableExtra::add_header_above(c(" " = 2), background = "#9229B2", color = "white")  # barra superior
 
 ```
+:::
 
+::: {.column width="5%"}
+:::
+
+::: {.column width="35%"}
 ## Equipo de Trabajo Social
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
 ts %>%
@@ -168,3 +165,31 @@ ts %>%
   kableExtra::add_header_above(c(" " = 2), background = "#9229B2", color = "white")  # barra superior
 
 ```
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="25%"}
+## Equipo de Sociología
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+socio %>%
+  knitr::kable(format = "html",
+        align = "c",
+        col.names = c("Sociología", "Tutor/a"),
+        escape = FALSE) %>%
+   kableExtra::kable_styling(bootstrap_options = c("striped", "hover"),
+                full_width = F,
+                position = "center",
+                font_size = 14) %>%
+   kableExtra::row_spec(0, bold = TRUE, color = "#FFFFFF", background = "#9229B2") %>%  # Encabezado
+   kableExtra::column_spec(1, background = "#F7941D", color = "#FFFFFF", bold = TRUE) %>%
+   kableExtra::column_spec(2, background = "#EEC8F3", color = "#FFFFFF", bold = TRUE) %>%
+  kableExtra::add_header_above(c(" " = 2), background = "#9229B2", color = "white")  # barra superior
+
+```
+:::
+
+
+:::
