@@ -14,7 +14,7 @@ El acompañamient impartido tradc¿cionalmente se componet por dos iniciativas: 
 
 ::: {.columns}
 ::: {.column width="40%"}
-## Tutorías <br> personalizadas
+#### Tutorías <br> personalizadas
 
  Individuales
 
@@ -26,7 +26,7 @@ El acompañamient impartido tradc¿cionalmente se componet por dos iniciativas: 
 :::
 
 ::: {.column width="40%"}
-## Articulación <br> con ramos: <br> **Talleres**
+#### Articulación <br> con ramos: <br> **Talleres**
 
 -   masivos
 :::
@@ -39,7 +39,7 @@ Desde este semestre, si bien se mantiene la logica tradicioal de acompañmiento
 
 ::: {.columns}
 ::: {.column width="40%"}
-## Tutorías <br> personalizadas
+#### Tutorías <br> personalizadas
 :::
 
 ::: {.column width="10%"}
@@ -47,7 +47,7 @@ Desde este semestre, si bien se mantiene la logica tradicioal de acompañmiento
 
 
 ::: {.column width="40%"}
-## Articulación <br> con ramos: <br> **Grupos de estudio** y talleres
+#### Articulación <br> con ramos: <br> **Grupos de estudio** y talleres
 
 -   nuevo enfoque de sistematización de asistencias
 :::

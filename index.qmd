@@ -6,7 +6,7 @@ Este libro orientador busca introducir a dicha labor en términos más espcifico
 
 El Centro para la Innovación y el Aprendizaje (IDEA) se integra por:
 
-## Equipo de coordinación
+## Equipo coordinación
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
 library(tidyverse)
@@ -36,8 +36,8 @@ int %>%
 Y por **5 equipos** referidos a cada carrera:
 
 ::: {columns}
-::: {.column width="25%"}
-## Equipo de Antropología
+::: {.column width="35%"}
+## Equipo <br> Antropología
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
 antropo <- c("Andrea", "Josefa", "Nabila", "Nataly")
@@ -97,58 +97,12 @@ antropo %>%
 :::
 
 
-::: {.column width="10%"}
+::: {.column width="15%"}
 :::
 
-::: {.column width="45%"}
-## Equipo de Pedagogía en Educación Parvularia
+::: {.column width="35%"}
 
-```{r, echo=FALSE, message=FALSE, warning=FALSE}
-pep %>%
-  knitr::kable(format = "html",
-        align = "c",
-        col.names = c("Pedagogía en Educación Parvularia", "Tutora"),
-        escape = FALSE) %>%
-   kableExtra::kable_styling(bootstrap_options = c("striped", "hover"),
-                full_width = F,
-                position = "center",
-                font_size = 14) %>%
-   kableExtra::row_spec(0, bold = TRUE, color = "#FFFFFF", background = "#9229B2") %>%  # Encabezado
-   kableExtra::column_spec(1, background = "#F7941D", color = "#FFFFFF", bold = TRUE) %>%
-   kableExtra::column_spec(2, background = "#EEC8F3", color = "#FFFFFF", bold = TRUE) %>%
-  kableExtra::add_header_above(c(" " = 2), background = "#9229B2", color = "white")  # barra superior
-
-```
-:::
-
-:::
-
-::: {columns}
-::: {.column width="25%"}
-## Equipo de Psicología
-```{r, echo=FALSE, message=FALSE, warning=FALSE}
-psico %>%
-  knitr::kable(format = "html",
-        align = "c",
-        col.names = c("Psicología", "Tutor/a"),
-        escape = FALSE) %>%
-   kableExtra::kable_styling(bootstrap_options = c("striped", "hover"),
-                full_width = F,
-                position = "center",
-                font_size = 14) %>%
-   kableExtra::row_spec(0, bold = TRUE, color = "#FFFFFF", background = "#9229B2") %>%  # Encabezado
-   kableExtra::column_spec(1, background = "#F7941D", color = "#FFFFFF", bold = TRUE) %>%
-   kableExtra::column_spec(2, background = "#EEC8F3", color = "#FFFFFF", bold = TRUE) %>%
-  kableExtra::add_header_above(c(" " = 2), background = "#9229B2", color = "white")  # barra superior
-
-```
-:::
-
-::: {.column width="8%"}
-:::
-
-::: {.column width="25%"}
-## Equipo de Trabajo Social
+## Equipo <br> Trabajo Social
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
 ts %>%
   knitr::kable(format = "html",
@@ -167,11 +121,61 @@ ts %>%
 ```
 :::
 
-::: {.column width="8%"}
 :::
 
-::: {.column width="25%"}
-## Equipo de Sociología
+::: {.columns}
+::: {.column width="85%"}
+## Equipo <br> Pedagogía en <br> Educación Parvularia
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+pep %>%
+  knitr::kable(format = "html",
+        align = "c",
+        col.names = c("Pedagogía en <br> Educación Parvularia", "Tutora"),
+        escape = FALSE) %>%
+   kableExtra::kable_styling(bootstrap_options = c("striped", "hover"),
+                full_width = F,
+                position = "center",
+                font_size = 14) %>%
+   kableExtra::row_spec(0, bold = TRUE, color = "#FFFFFF", background = "#9229B2") %>%  # Encabezado
+   kableExtra::column_spec(1, background = "#F7941D", color = "#FFFFFF", bold = TRUE) %>%
+   kableExtra::column_spec(2, background = "#EEC8F3", color = "#FFFFFF", bold = TRUE) %>%
+  kableExtra::add_header_above(c(" " = 2), background = "#9229B2", color = "white")  # barra superior
+
+```
+:::
+
+:::
+
+::: {columns}
+::: {.column width="35%"}
+## Equipo <br> Psicología
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+psico %>%
+  knitr::kable(format = "html",
+        align = "c",
+        col.names = c("Psicología", "Tutor/a"),
+        escape = FALSE) %>%
+   kableExtra::kable_styling(bootstrap_options = c("striped", "hover"),
+                full_width = F,
+                position = "center",
+                font_size = 14) %>%
+   kableExtra::row_spec(0, bold = TRUE, color = "#FFFFFF", background = "#9229B2") %>%  # Encabezado
+   kableExtra::column_spec(1, background = "#F7941D", color = "#FFFFFF", bold = TRUE) %>%
+   kableExtra::column_spec(2, background = "#EEC8F3", color = "#FFFFFF", bold = TRUE) %>%
+  kableExtra::add_header_above(c(" " = 2), background = "#9229B2", color = "white")  # barra superior
+
+```
+:::
+
+
+
+
+::: {.column width="15%"}
+:::
+
+::: {.column width="35%"}
+## Equipo <br> Sociología
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
 socio %>%
