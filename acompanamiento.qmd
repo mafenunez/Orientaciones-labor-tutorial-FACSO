@@ -13,29 +13,19 @@ El eje principal de nuestra labor es el acompañamiento integral a estudiantes. 
 El acompañamient impartido tradc¿cionalmente se componet por dos iniciativas: tutorías prsoanlziadas y articulación con ramos mediante talleres
 
 ::: {.columns}
-::: {.column width="45%"}
+::: {.column width="40%"}
 ## Tutorías personalizadas
 
-::: {.columns}
-::: {.column width="30%"}
  Individuales
-:::
 
-::: {.column width="15%"}
-:::
-
-::: {.column width="50%"}
  Grupales / Grupo de estudio
-:::
-
-:::
 
 :::
 
 ::: {.column width="5%"}
 :::
 
-::: {.column width="45%"}
+::: {.column width="55%"}
 ## Articulación con ramos: **Talleres**
 
 -   masivos
@@ -48,7 +38,7 @@ El acompañamient impartido tradc¿cionalmente se componet por dos iniciativas: 
 Desde este semestre, si bien se mantiene la logica tradicioal de acompañmiento
 
 ::: {.columns}
-::: {.column width="45%"}
+::: {.column width="40%"}
 ## Tutorías personalizadas
 :::
 
@@ -56,7 +46,7 @@ Desde este semestre, si bien se mantiene la logica tradicioal de acompañmiento
 :::
 
 
-::: {.column width="45%"}
+::: {.column width="55%"}
 ## Articulación con ramos: **Grupos de estudio** y talleres
 
 -   nuevo enfoque de sistematización de asistencias

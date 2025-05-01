@@ -4,8 +4,7 @@ title: "Tareas Administrativas"
 
 Dentro de la labor tutorial, es importante hacer un repote adecuado de su gestiÃ³n como tutores. Para ello,
 
-::: {.columns}
-::: {.column width="40%"}
+
 
 # Documentos
 
@@ -18,13 +17,9 @@ Dentro de la labor tutorial, es importante hacer un repote adecuado de su gestiÃ
 
 >   solicitud de sala
 
-:::
-
-::: {.column width="5%"}
-:::
 
 
-::: {.column width="55%"}
+
 # Carpetas
 
 ::: {.columns}
@@ -57,12 +52,8 @@ Carpetas compartidas **con el equipo de coordinacion**
 
 :::
 
-:::
 
-:::
 
-::: {.columns}
-::: {.column width="95%"}
 # Formularios
 
 ::: {.columns}
@@ -91,6 +82,3 @@ Formulario gestonaods **desde equipos**
 
 :::
 
-:::
-
-:::

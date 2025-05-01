@@ -18,9 +18,14 @@ output:
 
 A nivel UChile, se plantea el principio de necesidad a la hora de poner a disposicón las tutorías a les estudiantes: estos son seleccionados por sus vías de ingreso. Así, quiénes se vean más necesitados de acuidr al compañmiento para adaptarse a la vida univerisitaria, son quienes reciben las tutorias. Sin embargo, esto no es un trato prioritorio, ya que las tutorías son ofetadas pero no demandadas. 
 
+Al esuchar esto y pensarlo en nuestra Facultad, no s algo que nos haga mucho sentido, pues FACSO tiene un funcionamiento propio y completamente diferente al de las otras facutlades. Desde ahí nace nuestro Centro IDEA.
+
 :::
 
-::: {.column width="45%"}
+::: {.column width="10%"}
+:::
+
+::: {.column width="40%"}
 ::: callout-note
 Esta iniciativa, a nivel UChile, nace a partir de la **masificación de la educación superior**. Lo cual plantea la *necesidad de acompañar a estudiantes quienes son la primera generación de universitarios (o profesionales) en su familia* y, por ende, *la experiencia de estudiar en el espacio univeistario es completamente nueva*.
 :::
@@ -29,7 +34,7 @@ Esta iniciativa, a nivel UChile, nace a partir de la **masificación de la educa
 
 :::
 
-Al esuchar esto y pensarlo en nuestra Facultad, no s algo que nos haga mucho sentido, pues FACSO tiene un funcionamiento propio y completamente diferente al de las otras facutlades. Desde ahí nace nuestro Centro IDEA.
+
 
 ***¿Por qué el centro funciona de tal manera?***
 
@@ -42,7 +47,10 @@ Desde ahí, los valores que caracterizanal Cento IDEA son los que movilizan su f
 
 :::
 
-::: {.column width="45%"}
+::: {.column width="10%"}
+:::
+
+::: {.column width="40%"}
 Por otro lado, el perfíl del estudiante de FACSO se trata de un estudinte que
 :::
 
@@ -66,10 +74,17 @@ Identifcar:
 
 :::
 
+::: {.column width="8%"}
+:::
+
 ::: {.column width="25%"}
 > ¿En qué momento debo pdir ayuda? ¿A quien? 
 
 > ¿Cuand debo deriviar un caso? 
+
+:::
+
+::: {.column width="8%"}
 :::
 
 ::: {.column width="25%"}
